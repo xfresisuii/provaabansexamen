@@ -5,10 +5,7 @@ import javax.persistence.*;
 import java.util.List;
 
 
-/**
- * The persistent class for the productes database table.
- * 
- */
+
 @Entity
 @Table(name="productes")
 @NamedQuery(name="Producte.findAll", query="SELECT p FROM Producte p")
